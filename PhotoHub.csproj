@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\delete.png" />
+    <None Remove="img\LogoFotoHub.png" />
+    <None Remove="img\Poisk.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\delete.png" />
+    <Resource Include="img\LogoFotoHub.png" />
+    <Resource Include="img\Poisk.png" />
+  </ItemGroup>
+
+</Project>
